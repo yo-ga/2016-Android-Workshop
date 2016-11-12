@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">practice1</string>
+    <string name="title">本利和計算機</string>
+    <string name="titSmall">整存整付試算：</string>
+    <string name="land">本金</string>
+    <string name="rate">年利率 (%)：</string>
+    <string name="number">存款期數</string>
+    <string name="btn">計算本利和</string>
+    <string name="clean">清除</string>
+</resources>
