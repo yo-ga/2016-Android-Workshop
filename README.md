@@ -24,7 +24,7 @@
 8. Actionlistener
 
 ## Shot
-1. Example 1
-<img src="./img/example1.png" width="100">
-2. Exercise 1
-<img src="./img/exercise1.png" width="100">
+1. Example 1<br>
+<img src="./img/example1.png" width="300">
+2. Exercise 1<br>
+<img src="./img/practice1.png" width="300">
