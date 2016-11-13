@@ -22,3 +22,9 @@
 7. Button
  - use id to find whitch button
 8. Actionlistener
+
+## Shot
+1. Example 1
+![](./img/example1.png)
+2. Exercise 1
+![](./img/exercise1.png)
