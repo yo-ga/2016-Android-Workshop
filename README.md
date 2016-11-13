@@ -25,6 +25,6 @@
 
 ## Shot
 1. Example 1
-![](./img/example1.png)
+![](./img/example1.png = 100x180)
 2. Exercise 1
-![](./img/exercise1.png)
+![](./img/practice1.png = 100x180)
