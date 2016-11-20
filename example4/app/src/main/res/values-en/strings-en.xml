@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Electronic Calculator</string>
+    <string name="ask_header">Please Input the data to calculate.</string>
+    <string name="voltage">Volt (V)</string>
+    <string name="amp">Amp (A)</string>
+    <string name="hour">Hours/Day：</string>
+    <string name="degree">Money per Degree：</string>
+    <string name="calcu_Month">CALCULATE</string>
+    <string name="month">30 Days per Month</string>
+    <string-array name="option_voltage">
+        <item>110V</item>
+        <item>220V</item>
+    </string-array>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">資料庫範例</string>
+    <string name="build">建立資料庫</string>
+</resources>

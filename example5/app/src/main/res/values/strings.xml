@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">個人基本資料表單</string>
+    <string name="user_name">姓名：</string>
+    <string name="user_gender">性別：</string>
+    <string name="user_interest">興趣：</string>
+    <string name="gen_men">男性</string>
+    <string name="gen_female">女性</string>
+    <string name="gen_others">其他</string>
+    <string name="eat">吃飯</string>
+    <string name="sleep">睡覺</string>
+    <string name="surf">上網</string>
+    <string name="play">打電動</string>
+    <string name="show_result">顯示結果</string>
+</resources>

@@ -28,3 +28,7 @@
 <img src="./img/example1.png" width="300">
 2. Exercise 1<br>
 <img src="./img/practice1.png" width="300">
+3. Example 2<br>
+<img src="./img/example2-1.png" width="300">
+<img src="./img/example2-2.png" width="300">
+<img src="./img/example2-3.png" width="300">

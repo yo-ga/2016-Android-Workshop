@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent example</string>
+    <string name="mainActivity">Main Activity</string>
+    <string name="changeActivity">Change to 2nd Activity</string>
+    <string name="secondActivity">Second Activity</string>
+    <string name="backActivity">Back to Main Activity</string>
+</resources>

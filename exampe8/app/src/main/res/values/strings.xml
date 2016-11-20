@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BMI 計算器</string>
+    <string name="height">身高：(m)</string>
+    <string name="weight">體重：(Kg)</string>
+    <string name="year">年齡：</string>
+    <string name="gender">男性/女性：</string>
+    <string name="gen_male">男</string>
+    <string name="gen_female">女</string>
+    <string name="head_title">計算你的 BMI 值</string>
+    <string name="calculate">計算 BMI</string>
+    <string name="back">回上一頁</string>
+</resources>

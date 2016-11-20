@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.yoga.example4.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ask_header"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_vol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_head"
+        android:layout_marginTop="10sp"
+        android:text="@string/voltage"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/sp_vol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_vol"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_head"
+        android:layout_marginLeft="80sp"
+        android:layout_toRightOf="@id/tv_vol"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_amp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_amp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_vol"
+        android:layout_marginTop="10sp"
+        android:text="@string/amp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@id/et_amp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/sp_vol"
+        android:layout_below="@id/tv_vol"
+        android:layout_toRightOf="@id/tv_amp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_hr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_amp"
+        android:layout_marginTop="10sp"
+        android:text="@string/hour"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/et_hr"/>
+
+    <EditText
+        android:id="@id/et_hr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/et_amp"
+        android:layout_below="@id/tv_amp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/tv_fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_hr"
+        android:layout_marginTop="10sp"
+        android:text="@string/degree"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/et_fee" />
+
+    <EditText
+        android:id="@id/et_fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/et_hr"
+        android:layout_below="@id/tv_hr"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/bt_cal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_fee"
+        android:text="@string/calcu_Month"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/bt_cal"
+        android:text="@string/month"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_month"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+</RelativeLayout>
