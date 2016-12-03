@@ -14,12 +14,6 @@ public class MainActivity extends AppCompatActivity {
     private String[] menu = {"豬肉總匯", "牛肉堡", "蘿蔔糕", "蛋沙拉", "薯餅"};
     private boolean[] check = {false, false, false, false, false};
 
-    private  void cleanChoice(boolean[] change){
-        for(int i =0 ;i<change.length;i++){
-            change[i]=false;
-        }
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,5 +63,11 @@ public class MainActivity extends AppCompatActivity {
                         .show();
             }
         });
+    }
+
+    private  void cleanChoice(boolean[] change){
+        for(int i =0 ;i<change.length;i++){
+            change[i]=false;
+        }
     }
 }
